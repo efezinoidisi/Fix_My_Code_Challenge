@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-"""
-This module contains the Square class which describes a square
+"""This module contains the Square class which describes a square
 """
 
 
-class Square():
+class square():
     """
-    Square class
+    Square class    
     """
     width = 0
     height = 0
@@ -21,7 +20,7 @@ class Square():
 
     def PerimeterOfMySquare(self):
         """Perimeter of the square"""
-        return (self.width * 4)
+        return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
         return "{}/{}".format(self.width, self.height)
@@ -29,7 +28,7 @@ class Square():
 
 if __name__ == "__main__":
 
-    s = Square(width=12, height=9)
+    s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.PerimeterOfMySquare())
