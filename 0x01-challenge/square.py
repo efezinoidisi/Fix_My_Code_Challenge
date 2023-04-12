@@ -6,7 +6,7 @@ This module contains the Square class which describes a square
 
 class Square:
     """
-    This decribes a square    
+    This decribes a square
     """
     width = 0
     height = 0
